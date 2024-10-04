@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\media\apples.jpg" />
+    <None Include="wwwroot\media\bananas.jpg" />
+    <None Include="wwwroot\media\Beef.jpg" />
+    <None Include="wwwroot\media\carrot.jpg" />
+    <None Include="wwwroot\media\Cheese.jpg" />
+    <None Include="wwwroot\media\Chicken Breast.jpg" />
+    <None Include="wwwroot\media\milk.png" />
+    <None Include="wwwroot\media\potato.png" />
+    <None Include="wwwroot\media\Sok_apelsin.png" />
+  </ItemGroup>
+
+</Project>

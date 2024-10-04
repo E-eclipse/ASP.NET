@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimerninMH", "SimerninMH\SimerninMH.csproj", "{B334D58F-9B4C-45DA-9C44-667BB908DBCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B334D58F-9B4C-45DA-9C44-667BB908DBCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B334D58F-9B4C-45DA-9C44-667BB908DBCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B334D58F-9B4C-45DA-9C44-667BB908DBCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B334D58F-9B4C-45DA-9C44-667BB908DBCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A070E3C4-94D1-4AE6-AB98-DF5ECCC974D4}
+	EndGlobalSection
+EndGlobal

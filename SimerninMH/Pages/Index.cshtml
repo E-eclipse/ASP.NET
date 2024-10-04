@@ -1,0 +1,39 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Главная страница";
+}
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/styles.css" />
+    <title>@ViewData["Title"]</title>
+</head>
+<body>
+    <header>
+        <h1>Perchik</h1>
+        <p>Ваш магазин свежих продуктов</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>Свежие фрукты</h2>
+            <img src="~/media/apples.jpg" alt="" />
+            <p >Откройте для себя разнообразие свежих фруктов от местных фермеров.</p>
+        </div>
+        <div class="card">
+            <h2>Овощи</h2>
+            <img src="~/media/carrot.jpg" alt="" style="width:100%; height:auto;" />
+            <p>Выберите из широкого ассортимента свежих и органических овощей.</p>
+        </div>
+        <div class="card">
+            <h2>Молочные продукты</h2>
+            <img src="~/media/milk.png" alt="" style="width:100%; height:auto;" />
+            <p>Наслаждайтесь качественными молочными продуктами, произведенными с заботой.</p>
+        </div>
+    </div>
+</body>
+</html>
